@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body style */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  background-color: #e0e0e0;
+}
+
+/* Top Header Styles */
+header {
+  background-color: #f9f9f9;
+  padding: 25px 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+header ul {
+  display: flex;
+  gap: 35px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #444;
+}
+
+aside nav ul li a:hover {
+  background-color: azure;
+  color: teal;
+  border-radius: 50px;
+}
+
+.logo {
+  font-size: 35px;
+  text-decoration: none;
+  color: teal;
+}
+
+/* side bar styles */
+
+aside {
+  width: 20%;
+  background-color: teal;
+  padding: 40px;
+}
+
+aside nav ul li {
+  list-style: none;
+}
+
+aside nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* main styles */
+main {
+  width: 70%;
+  background-color: #ffffff;
+  padding: 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+main img {
+  width: 50%;
+}
+
+main h1 {
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+main p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #444;
+  line-height: 30px;
+}
+
+main h2 {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+main ul li {
+  background-color: teal;
+  color: #e0e0e0;
+  padding: 30px;
+  margin-bottom: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.colum-wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+}
